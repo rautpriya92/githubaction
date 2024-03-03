@@ -1,0 +1,8 @@
+name: Snow-world
+'on': push
+jobs:
+  my-job:
+    runs-on: window
+    steps:
+      - name: my-step
+        run: echo "Hello to snowflake_world"
