@@ -2,7 +2,7 @@ name: snow
 'on': push
 jobs:
   my-job:
-    runs-on: window
+    runs-on: windows-latest
     steps:
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
       - name: Checkout repository
